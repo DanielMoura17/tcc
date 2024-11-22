@@ -116,7 +116,7 @@ img {
 @media screen and (max-width: 1023px){
     .nav__menu{
         position: fixed;
-        left: -100;
+        left: -10 0;
         top: 0;
         background-color: var(--black-color);
         width: 100%;
@@ -155,7 +155,7 @@ img {
 .nav__social{
     display: flex;
     column-gap: .5rem;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .nav__social-link{
@@ -165,7 +165,7 @@ img {
 
 
 /* Show menu */
-.Show-menu{
+.show-menu{
     left: 0;
     
 }
